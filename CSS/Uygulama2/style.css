@@ -1,0 +1,194 @@
+/* CSS Dosyası */
+
+            /* Boşlukları sıfırla*/
+            *{
+                margin: 0px; padding: 0px;
+            }
+
+            #sayfa{
+                width: 400px;
+                min-height: 600px;
+                border-style: solid;
+                border-width: 1px;
+                margin: auto;
+                
+            }
+            /*Banner*/
+            #banner{
+                width: 398px;
+                min-height: 100px;
+                border-style: none;
+                border-width: 1px;
+                margin: auto;
+                background-color: white;
+
+            }
+            /*Logo*/
+            #logo{
+                width: 95px;
+                min-height: 80px;
+                border-style: none;
+                border-width: 1px;
+                background-color: white;
+                position: relative;
+                top: 10px; 
+                left:10px;
+                float: left;
+            }
+            #vesika{
+                width: 90px;
+            }
+            /*Sosyal Medya İkonları*/
+            #sosyal{
+                width:100px;
+                height:30px;
+                border-style:none;
+                border-width:1px;
+                background-color:white;
+                position:relative;
+                float:right;
+                top: 40px;
+                right: 10px;
+            }
+           #ikon{
+            float:right;
+            width: 33px;
+
+           }
+
+           /*Anamenu*/
+           #anamenu{
+                width: 398px;
+                height: 50px;
+                border-style: none;
+                border-width: 1px;
+                margin: auto;
+                background-color: rgb(232, 68, 95);
+           }
+           #anamenu ul{
+            list-style-type:none;
+           }
+           #anamenu li{
+            
+            border-style: solid;
+            border-width: 5px;
+            width: 80px;
+            border-radius: 10px;
+            background-color: white;
+            text-align: center;
+            float: left;
+            padding: 4px;
+            margin-left: 1px;
+            top: 8px;
+            
+           }
+           #anamenu ul a{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration:none;
+            font-size: small;
+            font-weight: bolder;
+
+           }
+
+           #anamenu ul a:link{
+            color:rgb(255, 13, 0);
+           }
+           #anamenu ul a:visited{
+            color:rgb(105, 2, 112);
+           }
+           #anamenu ul a:hover{
+            color: blue;
+           }
+           #anamenu ul a:active{
+            color:green;
+           }
+
+           #icerik{
+                width: 300px;
+                min-height: 401px;
+                border-style: none;
+                border-width: 1px;
+                margin: auto;
+                background-color: pink;
+                float: left;
+           }
+           #yanmenu{
+                width: 100px;
+                min-height: 372px;
+                border-style: none;
+                border-width: 1px;
+                margin: auto;
+                background-color: rgb(98, 65, 70);
+                float: left;
+                left:2px;
+           }
+           #altmenu{
+                width: 400px;
+                min-height: 49px;
+                border-style: none;
+                border-width: 1px;
+                margin: auto;
+                background-color: rgb(51, 18, 23);
+                float:left;
+                left:2px;
+                text-align: center;
+                
+           }
+           #altmenu a{
+            color:white;
+            
+            font-size: small;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+
+           }
+           
+           #altmenu a:link{
+            color:rgb(255, 255, 255);
+           }
+           #altmenu a:visited{
+            color:rgb(105, 2, 112);
+           }
+           #altmenu a:hover{
+            color: rgb(230, 0, 255);
+           }
+           #altmenu a:active{
+            color:rgb(115, 0, 255);
+           }
+
+
+
+           .resim{
+            
+            float:left;
+            width: 100px;
+            
+           }
+           .metin{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+            color:darkblue;
+           }
+           .baslik{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+           }
+           .yanmenu{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+            color: rgb(0, 255, 187);
+           }
+           .paragraf{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 10px;
+            text-align:left;
+            font-weight: bolder;
+            color: aliceblue;
+           }
+           .altmenu{
+            color: rgb(255, 218, 172);
+           }
